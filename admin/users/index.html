@@ -24,38 +24,38 @@
         <li
           class="p-3 hover:bg-gray-700 rounded-lg cursor-pointer transition duration-300 ease-in-out"
         >
-          <a href="index.html" class="flex items-center">
+          <a href="../index.html" class="flex items-center">
             <i class="fa-solid fa-gauge mr-3"></i> Dashboard
           </a>
         </li>
         <li
           class="p-3 hover:bg-gray-700 rounded-lg cursor-pointer transition duration-300 ease-in-out"
         >
-          <a href="users/index.html" class="flex items-center">
+          <a href="../users/index.html" class="flex items-center">
             <i class="fas fa-users mr-3"></i> Users Data
           </a>
         </li>
         <li
           class="p-3 hover:bg-gray-700 rounded-lg cursor-pointer transition duration-300 ease-in-out"
         >
-          <a href="menu/index.html" class="flex items-center">
+          <a href="../menu/index.html" class="flex items-center">
             <i class="fas fa-boxes mr-3"></i> Menu Data
           </a>
         </li>
         <li
           class="p-3 hover:bg-gray-700 rounded-lg cursor-pointer transition duration-300 ease-in-out"
         >
-          <a href="order/index.html" class="flex items-center">
+          <a href="../order/index.html" class="flex items-center">
             <i class="fas fa-receipt mr-3"></i> Order Data
           </a>
         </li>
         <li
-          class="p-3 hover:bg-gray-700 rounded-lg cursor-pointer transition duration-300 ease-in-out"
-        >
-          <a href="#" class="flex items-center">
-            <i class="fa-solid fa-right-from-bracket mr-3"></i> Logout
-          </a>
-        </li>
+        class="p-3 hover:bg-gray-700 rounded-lg cursor-pointer transition duration-300 ease-in-out"
+      >
+        <a href="#" class="flex items-center">
+          <i class="fa-solid fa-right-from-bracket mr-3"></i> Logout
+        </a>
+      </li>
       </ul>
     </aside>
 
@@ -73,53 +73,35 @@
         >
           <i class="fas fa-bars"></i>
         </div>
-        <!-- <div
-          class="w-10 h-10 bg-white text-blue-600 rounded-full flex items-center justify-center font-bold cursor-pointer md:block"
-        >
-          Ghaida
-        </div> -->
       </nav>
 
       <!-- Content -->
       <main class="p-6">
-        <h1 class="text-2xl font-semibold mb-6">Dashboard Overview</h1>
+        <h1 class="text-2xl font-semibold mb-6">Users Data</h1>
 
-        <!-- Dashboard Cards -->
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
-          <!-- Card 1 -->
-          <div
-            class="bg-gradient-to-r from-blue-500 to-teal-500 p-6 rounded-xl shadow-xl hover:scale-105 transition duration-300 ease-in-out"
-          >
-            <div class="flex items-center mb-4">
-              <i class="fas fa-users text-4xl text-white mr-4"></i>
-              <h3 class="text-white text-xl font-semibold">Users Data</h3>
-            </div>
-            <p class="text-4xl font-bold text-white">123</p>
-          </div>
-
-          <!-- Card 2 -->
-          <div
-            class="bg-gradient-to-r from-green-400 to-teal-600 p-6 rounded-xl shadow-xl hover:scale-105 transition duration-300 ease-in-out"
-          >
-            <div class="flex items-center mb-4">
-              <i class="fas fa-boxes text-4xl text-white mr-4"></i>
-              <h3 class="text-white text-xl font-semibold">Menu Data</h3>
-            </div>
-            <p class="text-4xl font-bold text-white">456</p>
-          </div>
-
-          <!-- Card 3 -->
-          <div
-            class="bg-gradient-to-r from-red-400 to-yellow-500 p-6 rounded-xl shadow-xl hover:scale-105 transition duration-300 ease-in-out"
-          >
-            <div class="flex items-center mb-4">
-              <i class="fas fa-receipt text-4xl text-white mr-4"></i>
-              <h3 class="text-white text-xl font-semibold">Total Orders</h3>
-            </div>
-            <p class="text-4xl font-bold text-white">789</p>
-          </div>
+        <!-- Table -->
+        <div class="overflow-x-auto bg-white shadow-lg rounded-lg">
+          <table class="min-w-full table-auto">
+            <thead class="bg-blue-600 text-white">
+              <tr>
+                <th class="px-4 py-2 text-left">Full Name</th>
+                <th class="px-4 py-2 text-left">Role</th>
+                <th class="px-4 py-2 text-left">Username</th>
+                <th class="px-4 py-2 text-left">Phone Number</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="border-b">
+                <td class="px-4 py-2">Ghaida</td>
+                <td class="px-4 py-2">Admin</td>
+                <td class="px-4 py-2">ghaidafsy</td>
+                <td class="px-4 py-2">+6281908915320</td>
+              </tr>
+            </tbody>
+          </table>
         </div>
       </main>
+      <!-- Content end -->
     </div>
 
     <script>
